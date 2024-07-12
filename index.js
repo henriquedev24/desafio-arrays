@@ -46,10 +46,7 @@ var pessoas = [
 ];
 
 function maiorIdade(param) {
-  var toReturn;
-  param.find(pessoa => pessoa.idade >= 40)
-  toReturn = pessoas
-  return toReturn;
+  return param.find(pessoa => pessoa.idade >= 40)
 }
 console.log(maiorIdade(pessoas));
 
